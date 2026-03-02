@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+.input {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-lg
+  text-gray-700 placeholder-gray-400
+  focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500
+  transition duration-200;
+}
+
+.btn {
+  @apply w-full py-2 mt-2 rounded-lg bg-blue-500 text-white font-semibold
+  hover:bg-blue-600 active:scale-95
+  transition duration-200 shadow-md;
+}
+
+.btn:disabled {
+  @apply bg-blue-300 cursor-not-allowed active:scale-100;
+}
+
+.error {
+  @apply text-sm text-red-600 font-medium mt-1;
+}
+
+.card {
+  @apply bg-white p-5 rounded-xl shadow-lg;
+}
