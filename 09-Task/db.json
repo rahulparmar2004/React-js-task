@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Rahul Sharma",
+      "email": "rahul@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "Amit Singh",
+      "email": "amit@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "Sneha Patel",
+      "email": "sneha@gmail.com"
+    },
+    {
+      "id": "9e1b",
+      "name": "Meet",
+      "email": "admin@gmail.com"
+    },
+    {
+      "id": "3a9b",
+      "name": "dfg",
+      "email": "rahulparmar0u@gmail.com"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
